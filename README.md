@@ -58,6 +58,48 @@ em strong {
 </html>
 <div class="beneficios">
     <h2>Benefícios</h2>
+border: 3px solid #000000;
+border: 2px solid #000000;
+border-radius: 10px;
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+.produtos li:hover {
+    border-color: #C78C19;
+}
+.produtos li:active {
+    border-color: #088C19;	
+}
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+<footer>
+    <img src="logo-branco.png">
+    <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+</footer>
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
 
     <ul>
         <li class="itens">Servidor 24 horas</li>
